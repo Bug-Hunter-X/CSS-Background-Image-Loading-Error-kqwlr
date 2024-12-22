@@ -1,0 +1,1 @@
+The CSS rule `background-image: url(image.jpg);` fails to load the image if the path to `image.jpg` is incorrect or the image file doesn't exist.  This can be difficult to debug because it might not throw an error, the background will simply remain blank or default to the element's background color.
